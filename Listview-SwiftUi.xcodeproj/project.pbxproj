@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		4C20875127A2F9B200DC94E3 /* Listview_SwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20875027A2F9B200DC94E3 /* Listview_SwiftUiApp.swift */; };
-		4C20875327A2F9B200DC94E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20875227A2F9B200DC94E3 /* ContentView.swift */; };
+		4C20875327A2F9B200DC94E3 /* PlayerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20875227A2F9B200DC94E3 /* PlayerDetail.swift */; };
 		4C20875527A2F9B300DC94E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C20875427A2F9B300DC94E3 /* Assets.xcassets */; };
 		4C20875827A2F9B300DC94E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C20875727A2F9B300DC94E3 /* Preview Assets.xcassets */; };
+		4C20875F27A2FAE300DC94E3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20875E27A2FAE300DC94E3 /* Player.swift */; };
+		4C21803C27A41B69008848A6 /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C21803B27A41B69008848A6 /* StatText.swift */; };
+		4C599C5D27A526C400AA21E5 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C599C5C27A526C400AA21E5 /* PlayerRow.swift */; };
+		4CAFB75A27A58A08008561A8 /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAFB75927A58A08008561A8 /* PlayerList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C20874D27A2F9B200DC94E3 /* Listview-SwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Listview-SwiftUi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C20875027A2F9B200DC94E3 /* Listview_SwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listview_SwiftUiApp.swift; sourceTree = "<group>"; };
-		4C20875227A2F9B200DC94E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C20875227A2F9B200DC94E3 /* PlayerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetail.swift; sourceTree = "<group>"; };
 		4C20875427A2F9B300DC94E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C20875727A2F9B300DC94E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C20875E27A2FAE300DC94E3 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4C21803B27A41B69008848A6 /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
+		4C599C5C27A526C400AA21E5 /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		4CAFB75927A58A08008561A8 /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		4C20874F27A2F9B200DC94E3 /* Listview-SwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				4C20875E27A2FAE300DC94E3 /* Player.swift */,
 				4C20875027A2F9B200DC94E3 /* Listview_SwiftUiApp.swift */,
-				4C20875227A2F9B200DC94E3 /* ContentView.swift */,
+				4CAFB75927A58A08008561A8 /* PlayerList.swift */,
+				4C20875227A2F9B200DC94E3 /* PlayerDetail.swift */,
+				4C21803B27A41B69008848A6 /* StatText.swift */,
+				4C599C5C27A526C400AA21E5 /* PlayerRow.swift */,
 				4C20875427A2F9B300DC94E3 /* Assets.xcassets */,
 				4C20875627A2F9B300DC94E3 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C20875327A2F9B200DC94E3 /* ContentView.swift in Sources */,
+				4C20875327A2F9B200DC94E3 /* PlayerDetail.swift in Sources */,
+				4C20875F27A2FAE300DC94E3 /* Player.swift in Sources */,
+				4C21803C27A41B69008848A6 /* StatText.swift in Sources */,
+				4C599C5D27A526C400AA21E5 /* PlayerRow.swift in Sources */,
+				4CAFB75A27A58A08008561A8 /* PlayerList.swift in Sources */,
 				4C20875127A2F9B200DC94E3 /* Listview_SwiftUiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct Listview_SwiftUiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlayerList()
         }
     }
 }
